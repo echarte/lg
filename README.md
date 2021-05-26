@@ -27,7 +27,7 @@ la sumatoria es recursiva, es decir, revisa todo el árbol de subdirectorios.
 
 ## Construcción e instalación
 
-* [Instalar stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/)
+* [Instalar cabal](https://www.haskell.org/cabal/download.html)
 * Descargar el repositorio:
 ```
 git clone https://github.com/innaky/lg
@@ -35,7 +35,7 @@ git clone https://github.com/innaky/lg
 * Construcción:
 ```
 cd lg
-stack build
+cabal build
 ```
 
 Tomas el binario que se encuentra bajo el directorio *.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/lg* 
